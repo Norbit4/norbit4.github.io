@@ -1,0 +1,64 @@
+*{
+    background-color: #36393e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+p{
+    background: none;
+    line-height: 15px;
+}
+
+b{
+    background: none;  
+}
+
+img{
+    background: none;   
+}
+
+span{
+    background: none;    
+}
+
+/*start view*/
+.image{
+    width: 1920px;
+    filter: blur(4px);
+    -webkit-filter: blur(5px);
+}
+
+.startview{
+    position: absolute;
+    height: 100px;
+    text-align: center;
+    width: 100%;
+    top: 150px;
+    background: none;
+    font-size: 40px;
+}
+
+#tiitle{
+    font-size: 33px;
+}
+
+.name{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 37px;
+    font-weight: 600;
+    color: coral;
+}
+
+#text{
+    font-size: 15px;
+    color: azure;   
+}
+
+.back2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #36393e;
+    top: 600px;
+}
+
