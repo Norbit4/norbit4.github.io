@@ -1,0 +1,58 @@
+.contact{
+    padding-top: 30px;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 50px;
+    height: 200px;
+    background-color:#3b3e41;
+    border-radius: 20px;
+}
+
+.contact-tittle{
+    font-size: 25px;
+    color: coral;
+    margin-bottom: 35px;
+}
+
+.contact-text{
+    background: none;   
+}
+
+.media{
+    margin-top: 10px;
+    margin-left: 5%;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+}
+
+.media-t{
+    margin-left: 8px;
+    background-color: transparent;
+}
+
+.media-text{
+    background-color: transparent;
+    position: relative;
+    top: 6px;
+    font-size: 22px;
+    text-align: center;  
+}
+
+.media-img{
+    background-color: transparent; 
+}
+.discord{
+    color: #788dd8 
+}
+
+.github{
+    text-decoration: none;
+    color: rgb(196, 189, 189);
+}
+
+.github:hover{
+    color: rgb(216, 199, 144); 
+}
