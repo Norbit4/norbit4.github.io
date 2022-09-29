@@ -24,7 +24,6 @@ span{
 
 /*start view*/
 .image{
-    width: 100%;
     filter: blur(4px);
     -webkit-filter: blur(5px);
 }
