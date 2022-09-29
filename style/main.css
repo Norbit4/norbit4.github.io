@@ -22,6 +22,41 @@ span{
     background: none;    
 }
 
+/*nav*/
+
+.nav{
+    z-index: 10;
+    background-color: transparent;
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.nav-cont {
+    display: flex;
+    background-color: transparent;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: transparent
+  }
+
+  .nav-item {
+    background-color: transparent;
+    padding: 1em;
+  }
+  .nav-style{
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  .nav-style:hover{
+    font-weight: 600;
+    color: coral;
+  }
+
 /*start view*/
 .image{
     filter: blur(4px);
@@ -33,7 +68,7 @@ span{
     height: 100px;
     text-align: center;
     width: 100%;
-    top: 150px;
+    top: 23%;
     background: none;
     font-size: 40px;
 }
