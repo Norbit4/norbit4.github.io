@@ -17,7 +17,6 @@
 
 .projects-logo{
     background: none;   
-    width: 120px;
     margin: auto;
     display: block;
     margin-bottom: 20px;
@@ -27,7 +26,6 @@
     background: transparent;
     margin-bottom: 25px;
 }
-
 
 .project-tittle{
     color: beige;
