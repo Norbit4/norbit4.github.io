@@ -95,13 +95,12 @@ span{
     position: relative;
     width: 100%;
     background-color: #36393e;
+    padding-bottom: 30px;
 }
 
 .footer{
     margin-left: 0px;
-    margin-top: 30px;
     text-align: center;
-    position: relative;
     bottom: 0px;
     background-color: rgb(34, 36, 36);
     color: gray;

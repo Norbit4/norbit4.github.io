@@ -12,7 +12,7 @@
 .myprojects-tittle{
     font-size: 28px;
     color: coral;
-    margin-bottom: 30px;   
+    margin-bottom: 50px;   
 }
 
 .projects-logo{
@@ -20,6 +20,7 @@
     margin: auto;
     display: block;
     margin-bottom: 20px;
+    width: 90px;
 }
 
 .projects{
@@ -30,7 +31,6 @@
 .project-tittle{
     color: beige;
     font-size: 26px;
-    margin: 0 0 15px 0;
 }
 .project-desc{
     font-size: 16.4px;
@@ -63,9 +63,48 @@
     text-decoration: none;
     color: coral;
     background-color: transparent;
-  }
+}
 
-  .more:hover{
+.more:hover{
     font-weight: 600;
     color: rgb(221, 158, 22);
-  }
+}
+
+.project{
+    border-bottom: 2px solid;
+    padding: 35px;
+    border-color: gray;
+    margin-left: 7px;
+    margin-right: 7px;
+    -webkit-filter: grayscale(65%); 
+    filter: grayscale(65%);
+    background-color: rgb(82, 87, 85);
+    padding-bottom: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.project:hover{
+    -webkit-filter: grayscale(10%); 
+    filter: grayscale(0%);   
+    background-color: rgb(100, 98, 98);
+    border-color: coral;
+}
+.all-projects{
+    background-color: transparent;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.project-text{
+    text-decoration: none;
+}
