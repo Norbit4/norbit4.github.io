@@ -58,9 +58,19 @@ span{
   }
 
 /*start view*/
+.name{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4vh;
+    font-weight: 600;
+    color: coral;
+    margin-bottom: 20px;
+}
+
 .image{
     filter: blur(4px);
     -webkit-filter: blur(5px);
+    width: 100%;
+    height: 60vh;
 }
 
 .startview{
@@ -68,27 +78,9 @@ span{
     height: 100px;
     text-align: center;
     width: 100%;
-    top: 23%;
+    top: 20vh;
     background: none;
     font-size: 40px;
-}
-
-#tiitle{
-    font-size: 33px;
-    margin-bottom: 30px;
-}
-
-.name{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 37px;
-    font-weight: 600;
-    color: coral;
-    margin-bottom: 20px;
-}
-
-#text{
-    font-size: 15px;
-    color: azure;   
 }
 
 .back2{
@@ -99,6 +91,7 @@ span{
 }
 
 .footer{
+    position: fixed;
     margin-left: 0px;
     text-align: center;
     bottom: 0px;

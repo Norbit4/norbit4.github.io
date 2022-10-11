@@ -1,16 +1,24 @@
 .myprojects{
     padding-top: 30px;
     text-align: center;
-    width: 50%;
-    margin-left: 25%;
+    width: 60%;
+    margin-left: 20%;
     margin-top: 50px;
     padding-bottom: 40px;
     background-color:#3b3e41;
     border-radius: 20px;
 }
 
+@media (max-width:1400px){
+    .myprojects{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+  }
+
 .myprojects-tittle{
-    font-size: 28px;
+    font-size: 2.5vh;
     color: coral;
     margin-bottom: 50px;   
 }
@@ -20,7 +28,7 @@
     margin: auto;
     display: block;
     margin-bottom: 20px;
-    width: 90px;
+    width: 10vh;
 }
 
 .projects{
@@ -32,6 +40,7 @@
     color: beige;
     font-size: 26px;
 }
+
 .project-desc{
     font-size: 16.4px;
 }
@@ -71,8 +80,9 @@
 }
 
 .project{
+    margin-top: 30px;
     border-bottom: 2px solid;
-    padding: 35px;
+    padding: 4vh;
     border-color: gray;
     margin-left: 7px;
     margin-right: 7px;
@@ -96,6 +106,13 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width:900px){
+    .all-projects{
+        display: block;
+    }
+  }
+
 .link {
     position: absolute;
     width: 100%;
