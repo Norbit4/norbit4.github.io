@@ -63,6 +63,16 @@
     margin-right: 20px;
 }
 
+.project-name{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.project-desc{
+    color: rgb(153, 150, 150);
+    font-size: 14px;
+}
+
 .button-more{
     background-color: transparent;
 }
@@ -100,6 +110,14 @@
     background-color: rgb(100, 98, 98);
     border-color: coral;
 }
+
+@media (min-width:900px){
+    .project:hover{
+        width: 17%;
+    }
+}
+
+
 .all-projects{
     background-color: transparent;
     margin-top: 10px;
@@ -111,7 +129,7 @@
     .all-projects{
         display: block;
     }
-  }
+}
 
 .link {
     position: absolute;
