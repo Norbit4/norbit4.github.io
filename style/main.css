@@ -50,6 +50,7 @@ span{
   .nav-style{
     text-decoration: none;
     background-color: transparent;
+    font-size: 1.6vh;
   }
 
   .nav-style:hover{
@@ -63,7 +64,8 @@ span{
     font-size: 4vh;
     font-weight: 600;
     color: coral;
-    margin-bottom: 20px;
+    margin-bottom: 3vh;
+    margin-top: 4vh;
 }
 
 .image{
