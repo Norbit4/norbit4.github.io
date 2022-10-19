@@ -27,7 +27,7 @@
 }
 
 .media{
-    margin-top: 1vh;
+    margin-top: 1.3vh;
     margin-left: 5%;
     display: flex;
     text-align: center;
@@ -43,7 +43,7 @@
 .media-text{
     background-color: transparent;
     position: relative;
-    top: 6px;
+    top: 7px;
     font-size: 2vh;
     text-align: center;  
 }
@@ -55,6 +55,13 @@
     color: #788dd8 
 }
 
+.telegram{
+    text-decoration: none;
+    color: #80cbd8 
+}
+.telegram:hover{
+    color: rgb(216, 199, 144); 
+}
 .github{
     text-decoration: none;
     color: rgb(196, 189, 189);
