@@ -1,20 +1,27 @@
 #tiitle{
     font-size: 3.5vh;
     margin-bottom: 30px;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: rgb(39, 37, 37);
 }
 
 .name-aboutme{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 4vh;
+    font-size: 4.1vh;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: rgb(39, 37, 37);
     font-weight: 600;
     color: coral;
     margin-bottom: 20px;
     margin-bottom: 3vh;
     margin-top: 4vh;
+    white-space: nowrap;
 }
 
 #text{
-    font-size: 1.5vh;
+    font-size: 1.8vh;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(39, 37, 37);
     color: azure;   
 }
 

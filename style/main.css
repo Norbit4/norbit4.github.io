@@ -50,7 +50,9 @@ span{
   .nav-style{
     text-decoration: none;
     background-color: transparent;
-    font-size: 1.6vh;
+    font-size: 1.8vh;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(39, 37, 37);
   }
 
   .nav-style:hover{
@@ -61,7 +63,9 @@ span{
 /*start view*/
 .name{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 4vh;
+    font-size: 4.1vh;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: rgb(39, 37, 37);
     font-weight: 600;
     color: coral;
     margin-bottom: 3vh;
@@ -69,8 +73,8 @@ span{
 }
 
 .image{
-    filter: blur(4px);
-    -webkit-filter: blur(5px);
+    filter: blur(9px);
+    -webkit-filter: blur(9px);
     width: 100%;
     height: 60vh;
 }
