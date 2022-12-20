@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var tittle = document.querySelector("#name")
 
     var langs = ["Java", "JavaScript", "Kotlin", "Python"]
-    var langsColor = ["Coral", "yellow", "#a838ca", "#2cdf35"]
+    var langsColor = ["Coral", "yellow", "#bd47e0", "#2cdf35"]
     var i = 0
     var j = 2
     var first

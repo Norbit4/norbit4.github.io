@@ -11,12 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
         if(name.length == i){
             clearInterval(intervalID);
             tittle.innerText = actualSec
-            // setInterval(function(){
-            //     tittle.style.color = "RED"
-            //     setTimeout(function(){
-            //         tittle.style.color = "coral"
-            //     }, 200)
-            // }, 2300)
         }
         i++
     }, 360)
