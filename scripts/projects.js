@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var tittle = document.querySelector("#name")
 
     var langs = ["Java", "JavaScript", "Kotlin", "Python"]
-    var langsColor = ["Coral", "yellow", "#bd47e0", "#2cdf35"]
+    var langsColor = ["Coral", "yellow", "#cd5bf0", "#2cdf35"]
     var i = 0
     var j = 2
     var first
@@ -16,11 +16,16 @@ document.addEventListener('DOMContentLoaded', function() {
             clearInterval(first);
             j = 0
             i++
+            intervalID = undefined
         }
         j++
     }, 360)
 
     setInterval(function(){
+        if(intervalID != undefined){
+            clearInterval(intervalID)
+        }
+
         const lang = langs[i]
         const color = langsColor[i]
 
@@ -30,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
             tittle.style.color = color
             if(lang.length == j){
                 clearInterval(intervalID);
+                intervalID = undefined
                 j = 0
             }
             j++
@@ -39,5 +45,5 @@ document.addEventListener('DOMContentLoaded', function() {
             i = -1
         }
         i++
-    }, 4500)
+    }, 4600)
 })
