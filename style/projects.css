@@ -105,6 +105,7 @@
     padding-bottom: 20px;
     border-radius: 15px;
     cursor: pointer;
+    transition: width 1s;
 }
 
 .project:hover{
@@ -114,7 +115,11 @@
     border-color: coral;
 }
 
-@media (min-width:900px){
+@media (min-width:1100px){
+    .project{
+        width: 10%; 
+    }
+
     .project:hover{
         width: 17%;
     }
@@ -128,7 +133,7 @@
     justify-content: center;
 }
 
-@media (max-width:900px){
+@media (max-width:1100px){
     .all-projects{
         display: block;
     }
