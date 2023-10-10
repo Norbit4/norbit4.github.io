@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-
     var tittle = document.querySelector("#name")
     var name = "Norbit"
     var i = 2
