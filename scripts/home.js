@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     var tittle = document.querySelector("#name")
-    var name = "Norbert Śleziak"
+    var name = "Norbit"
     var i = 2
     var intervalID
 
